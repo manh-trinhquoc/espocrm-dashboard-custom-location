@@ -1,0 +1,13 @@
+{
+    "module": "DashboardCustomLocation",
+    "name": "Dashboard Custom Location",
+    "description": "View dashboard at custom location: Ex: list view",
+    "author": "manhtq",
+    "bundled": false,
+    "acceptableVersions": [
+        ">=7.3.0"
+    ],
+    "php": [
+        ">=7.2"
+    ]
+}
