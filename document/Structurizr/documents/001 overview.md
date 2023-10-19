@@ -4,7 +4,12 @@
 
 ## Triển khai
 
-- tạo list view custom có thêm phần dashboard.
+- tạo list view custom có thêm phần dashboard. Người dùng sẽ custom clientDefs/ENTITY.json để load list view này:
+```json
+    "views": {
+        "list": "dashboard-custom-location:views/record/list"
+    }
+```
 - nếu user tạo tab list có tên entity + '-list', ví dụ 'lead-list' thì sẽ tự động nhảy vào dashboard vở list view tương ứng.
 - Tham khảo 
     - home.js
