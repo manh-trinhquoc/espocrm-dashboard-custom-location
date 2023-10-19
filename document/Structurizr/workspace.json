@@ -2,7 +2,7 @@
   "id" : 1,
   "name" : "Vietnamese Translation",
   "description" : "Description",
-  "lastModifiedDate" : "2023-08-23T02:04:05Z",
+  "lastModifiedDate" : "2023-10-19T03:02:24Z",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlICJWaWV0bmFtZXNlIFRyYW5zbGF0aW9uIiB7CiAgICAhYWRycyBkZWNpc2lvbnMKICAgICFkb2NzIGRvY3VtZW50cwogICAgbW9kZWwgewogICAgICAgIAogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICAKCiAgICAgICAgdGhlbWUgZGVmYXVsdAoKICAgICAgICAvLyB0aGVtZXMgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9taWNyb3NvZnQtYXp1cmUtMjAyMS4wMS4yNi90aGVtZS5qc29uCiAgICB9Cgp9Cg=="
   },
@@ -10,7 +10,7 @@
   "model" : { },
   "documentation" : {
     "sections" : [ {
-      "content" : "# Overview\n\n- Dịch EspoCrm sang tiếng Việt\n- Bao gồm core và 1 số extension phổ biến",
+      "content" : "## Overview\n\n- Cho phép hiển thị dashboard ở 1 số vị trí tùy chỉnh: VD: entity list view\n\n## Triển khai\n\n- tạo list view custom có thêm phần dashboard.\n- nếu user tạo tab list có tên entity + '-list', ví dụ 'lead-list' thì sẽ tự động nhảy vào dashboard vở list view tương ứng.\n- Tham khảo \n    - home.js\n\n## Triển khai dự kiến v0.0.2\n\n1. Tạo thêm view admin cấu hình ở trong entity cho phép đè lên phần views của clientDefs/ENTITY.json  \n\n- View này dạng tickbox list: đè list, đè detail..\n- Khi user tick chọn đè, check nếu đã có giá trị khác không phải view custom của mình thì hiện cảnh báo\n- Lưu giá trị trước khi đè, nếu user bỏ tick thì revert lại giá trị cũ\n",
       "format" : "Markdown",
       "filename" : "001 overview.md",
       "order" : 1,
@@ -24,7 +24,7 @@
       "date" : "2023-08-01T00:00:00Z",
       "status" : "Accepted"
     }, {
-      "content" : "# . version 0. 0. 1\n\nDate: 2023-07-23\n\n## Status\n\nAccepted\n\n## Release Note\n- Dịch cho các version sau:\n\n| name | version\n| - | -\n| Espo | 7.5.5\n| Advanced Pack | 2.15.5\n| Google Integration | 1.5.5\n| Sales Pack | 1.2.1\n",
+      "content" : "# . version 0. 0. 1\n\nDate: 2023-07-23\n\n## Status\n\nAccepted\n\n## Release Note\n- Dash board can view at entity list view\n",
       "format" : "Markdown",
       "id" : "1",
       "title" : "version 0. 0. 1",
